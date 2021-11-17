@@ -3,35 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Student Bio</title>
+    <title>Veedit Parikh | Web Developer</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assests/images/favicon.jfif" />
 </head>
 
 <body>
     <!-- Site Header -->
-    <header>
-        <!--The h1 tag should be used for the most important heading-->
-        <h1>Student Bio</h1>
-    </header>
+
+    <!--The h1 tag should be used for the most important heading-->
+
+
+    <nav>
+        <h1>Veedit Parikh</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
 
     <!-- Section 1: Bio -->
-    <section>
-        <h2>Veedit Parikh</h2>
+    <section class="hero" id="about">
+        <!-- <h2>Veedit Parikh</h2> -->
         <!-- Image -->
-        <img src="https://via.placeholder.com/200" alt="Your Name">
+        <img src="assests/images/myimage.jfif" alt="veedit-parikh" loading="lazy" class="hero-img" />
         <!-- Paragraph with embedded link -->
-        <p>Write a short paragraph or two about yourself</p>
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Web Development: Nodejs, JavaScript, HTML5, CSS3 Programming Languages: Java Databases: Microsoft SQL Server 2012, Windows Server. IDEs/Tools: Selenium, Eclipse other tools like Jira, Git, Confluence Operating Systems: Windows
+
+            </p>
+        </div>
+    </section>
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            • Having 1.5+ years of experience in coding, automation and project execution. • Key expertise and knowledge of using Selenium Grid, Selenium Web driver, JAVA, and web application testing. • Familiar with the use of TestNG, JUnit and different frameworks
+            in Selenium. • Experience in all phases of SDLC with strong knowledge of development and testing application in the project.
+        </p>
+        <p>
+            • Experience in Testing and quality check for more than 5+ Web applications on different platforms. • Swift learner, Self-Motivated, Team Player and having a ‘Can-do’ attitude. Involved in client communication and project management in previous company
+            in India. • Experience in establishing proper communication channel between different stack holders of software development project.
+        </p>
+        <p>
+            • Experienced in writing the test plans, test cases and analyzing the test scripts as well as helping the team to fix the errors. • Expertise in preparing the Test Reports, Defect Management, Delivery Summary Reports • Certification course for the Node
+            JS.
+        </p>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assests/images/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assests/images/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assests/images/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assests/images/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assests/images/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assests/images/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
     </section>
 
     <!-- Section 2: Contact Info -->
     <section>
-        <h2>Contact Info</h2>
-        <!-- Unordered list -->
-        <ul>
-            <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-        </ul>
+
+
+
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/veeditparikh2211/" target="_blank"><img src="assests/images/icons8-linkedin-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
+            <a href="https://github.com/veeditparikh2211" target="_blank"><img src="assests/images/icons8-github.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="assests/images/gmail_animation.gif" alt="Github" class="socicon" /></a>
+        </div>
     </section>
+
+
+
 </body>
 
 </html>
